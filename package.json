@@ -1,0 +1,18 @@
+{
+  "name": "uni-cleaner",
+  "version": "1.0.0",
+  "description": "Quickly clean up and de-dupe files for the university team",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Scolamiero",
+  "license": "ISC",
+  "dependencies": {
+    "json2csv": "^4.4.1",
+    "lodash": "^4.17.11",
+    "neat-csv": "^4.0.0",
+    "promise-fs": "^2.1.0"
+  }
+}
